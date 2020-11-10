@@ -1,0 +1,58 @@
+.container {
+   width: 1280px; 
+  margin: 0 auto;    
+}
+
+
+.slider{
+    height: 1024px;
+    background-image: url(img/slider-img.png);
+}
+
+.header{
+    overflow: auto;
+}
+
+.link-logo{
+    margin-left: 323px;
+    padding-top: 39px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  text-decoration: none;
+  color: #fff;
+    float: left;
+}
+
+.logo-icon{
+     
+}
+
+.logo-text{
+    font-family: Raleway, arial,sans-serif;
+    color: #FFFFFF;
+    
+    font-size: 34px;
+    line-height : 40px;
+}
+
+.menu-list{
+    float: right;
+    padding-top: 53px;
+}
+
+.menu-list-item{
+    float: left;
+    
+}
+
+.menu-link-item {
+    /* Style for "HOME     P" */
+    color: #fff;
+    font-family: Montserrat, arial,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 13px;
+}
