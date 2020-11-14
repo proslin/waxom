@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
        margin-bottom: 315px;
+    align-items: center;
 }
 
 
@@ -193,4 +194,306 @@ line-height: 20px;
   width: 13px;
   height: 13px;
     border-radius: 50%;
+}
+
+.services-wrap {
+    width: 1920px;
+    padding: 85px 0 88px 0; 
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+
+.design{
+    width: 270px;    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+}
+
+
+.design:after {
+  content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F1EEE9;
+}
+
+.services-link {
+    text-decoration: none;
+    display: block;
+}
+
+.design-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0; 
+}
+
+.design-title {
+   font-family: Raleway, arial,sans-serif;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #555555;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.design-text {
+    font-family: Montserrat, arial,sans-serif;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.design:hover .design-icon {
+    fill: #C7B299;
+}
+
+.design:hover .design-title {
+  color: #C7B299;  
+}
+
+.design:hover:after {
+   background-color: #C7B199; 
+}
+
+
+.development{
+    width: 270px;    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+}
+
+
+.development:after {
+  content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F1EEE9;
+}
+
+.development-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0; 
+}
+
+.development-title {
+   font-family: Raleway, arial,sans-serif;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #555555;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.development-text {
+    font-family: Montserrat, arial,sans-serif;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.development:hover .development-icon {
+    fill: #C7B299;
+}
+
+.development:hover .development-title {
+  color: #C7B299;  
+}
+
+.development:hover:after {
+   background-color: #C7B199; 
+}
+
+.customization{
+    width: 270px;    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+}
+
+
+.customization:after {
+  content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F1EEE9;
+}
+
+.customization-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0; 
+}
+
+.customization-title {
+   font-family: Raleway, arial,sans-serif;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #555555;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.customization-text {
+    font-family: Montserrat, arial,sans-serif;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.customization:hover .customization-icon {
+    fill: #C7B299;
+}
+
+.customization:hover .customization-title {
+  color: #C7B299;  
+}
+
+.marketing{
+    width: 270px;    
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 10px 0 10px;
+  box-sizing: border-box;
+}
+
+
+.marketing:after {
+  content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F1EEE9;
+}
+
+.marketing-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0; 
+}
+
+.marketing-title {
+   font-family: Raleway, arial,sans-serif;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #555555;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marketing-text {
+    font-family: Montserrat, arial, sans-serif;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.marketing:hover .marketing-icon {
+    fill: #C7B299;
+}
+
+.marketing:hover .marketing-title {
+  color: #C7B299;  
+}
+
+.marketing:hover:after {
+   background-color: #C7B199; 
+}
+
+.waxom-realization-title {
+    font-family: Raleway, arial, sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #555555;
+    margin-bottom: 20px;
+    
+}
+
+.waxom-realization-text {
+    font-family: Montserrat, arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+   color: #8C8C8C;
+    margin-bottom: 42px;
+    width: 770px;
+    padding-left: 575px;
+}
+
+.waxom-realization {
+    width: 1920px;
+    text-align: center;
+    background-color: #E5E5E5;
+    padding-top: 80px;
+}
+
+.purchase-now {
+    width: 1920px;
+    background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+    padding:  44px 0 45px 0;
+    display: flex;
+}
+
+.purchase-now-title, .purchase-waxom {
+      font-family: Raleway, arial, sans-serif;
+font-size: 28px;
+    font-weight: 400;
+line-height: 33px;
+text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.purchase-now-title{
+    margin-left: 536px;
+}
+
+.purchase-waxom {
+color: #C7B299;
+}
+
+.purchase-now-text{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #615855;
 }
