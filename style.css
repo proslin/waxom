@@ -5,11 +5,29 @@
 
 
 header{
-   /* width: 1920px;*/
-    height: 1024px;;
+    height: 1024px;
     background-image: url('img/slider-img.png');
     background-size: cover;
     position: relative;
+}
+
+.title-h3 {
+  font-family: Raleway, arial, sans-serif;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+color: #555555;
+    margin-bottom: 20px;
+      
+}
+
+.subtitle-text {
+   font-family: Montserrat, arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+   color: #8C8C8C;     
 }
 
 nav{
@@ -59,15 +77,10 @@ nav{
 .menu-list{
    /* padding-top: 58px;*/
     margin-right: 40px;
-}
-
-.menu-list-item{
-    float: left;
-    
+    display: flex;
 }
 
 .menu-link-item {
-    /* Style for "HOME     P" */
     color: #fff;
     font-family: Montserrat, arial,sans-serif;
     font-weight: 300;
@@ -82,10 +95,11 @@ nav{
 
 .menu-list-icon{
  /*padding-top: 54px;   */
+    display: flex;
 }
 
 .menu-list-icon-item{
-    float: left;
+    /*float: left;*/
     margin-right: 30px;   
 }
 
@@ -218,15 +232,6 @@ line-height: 20px;
     justify-content:center;
 }
 
-/*.design{
-    width: 270px;    
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px 10px 0 10px;
-  box-sizing: border-box;
-}*/
-
 .services-link:after {
   content: "";
     display: flex;
@@ -246,13 +251,8 @@ line-height: 20px;
   position:relative;
 }
 
-.design-icon {
-    display: block;
-    fill: #555555;
-    margin: 0 0 20px 0; 
-}
 
-.design-title {
+.services-title {
    font-family: Raleway, arial,sans-serif;
 font-weight: 600;
 font-size: 22px;
@@ -263,7 +263,13 @@ color: #555555;
     margin-bottom: 20px;
 }
 
-.design-text {
+.design-icon {
+    display: block;
+    fill: #555555;
+    margin: 0 0 20px 0; 
+}
+
+.services-text {
     font-family: Montserrat, arial,sans-serif;
 font-weight: 300;
 font-size: 14px;
@@ -275,10 +281,6 @@ text-align: center;
 
 .services-link:hover .design-icon {
     fill: #C7B299;
-}
-
-.services-link:hover .design-title {
-  color: #C7B299;  
 }
 
 .services-link:hover:after {
@@ -310,32 +312,11 @@ text-align: center;
     margin: 0 0 20px 0; 
 }
 
-.development-title {
-   font-family: Raleway, arial,sans-serif;
-font-weight: 600;
-font-size: 22px;
-line-height: 26px;
-color: #555555;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.development-text {
-    font-family: Montserrat, arial,sans-serif;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-    color: #000000;
-    margin-bottom: 30px;
-}
-
 .services-link:hover .development-icon {
     fill: #C7B299;
 }
 
-.services-link:hover .development-title {
+.services-link:hover .services-title {
   color: #C7B299;  
 }
 
@@ -352,48 +333,14 @@ text-align: center;
   box-sizing: border-box;
 }
 
-
-/*.customization:after {
-  content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    background-color: #F1EEE9;
-}*/
-
 .customization-icon {
     display: block;
     fill: #555555;
     margin: 0 0 20px 0; 
 }
 
-.customization-title {
-   font-family: Raleway, arial,sans-serif;
-font-weight: 600;
-font-size: 22px;
-line-height: 26px;
-color: #555555;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.customization-text {
-    font-family: Montserrat, arial,sans-serif;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-    color: #000000;
-    margin-bottom: 30px;
-}
-
 .services-link:hover .customization-icon {
     fill: #C7B299;
-}
-
-.services-link:hover .customization-title {
-  color: #C7B299;  
 }
 
 .marketing{
@@ -405,48 +352,15 @@ text-align: center;
   box-sizing: border-box;
 }
 
-
-/*.marketing:after {
-  content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    background-color: #F1EEE9;
-}*/
-
 .marketing-icon {
     display: block;
     fill: #555555;
     margin: 0 0 20px 0; 
 }
 
-.marketing-title {
-   font-family: Raleway, arial,sans-serif;
-font-weight: 600;
-font-size: 22px;
-line-height: 26px;
-color: #555555;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.marketing-text {
-    font-family: Montserrat, arial, sans-serif;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-    color: #000000;
-    margin-bottom: 30px;
-}
 
 .services-link:hover .marketing-icon {
     fill: #C7B299;
-}
-
-.services-link:hover .marketing-title {
-  color: #C7B299;  
 }
 
 .services-link:hover:after {
@@ -454,34 +368,20 @@ text-align: center;
 }
 
 .waxom-realization {
-    /*width: 1920px;*/
     text-align: center;
     background-color: #E5E5E5;
     padding-top: 80px;
 }
 
 .waxom-realization-title {
-    font-family: Raleway, arial, sans-serif;
-font-weight: 600;
-font-size: 30px;
-line-height: 35px;
-text-align: center;
-color: #555555;
-    margin-bottom: 20px;
     
 }
 
 .waxom-realization-text {
-  font-family: Montserrat, arial, sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 20px;
-   color: #8C8C8C;    
-    width: 770px;
+      width: 770px;
     text-align: center;
     margin: auto;
     margin-bottom: 42px;
-    /*padding-left: 575px;*/
 }
 
 .waxom-realization-img {
@@ -489,7 +389,6 @@ color: #555555;
 }
 
 .purchase-now {
-   /* width: 1920px;*/
     background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
     padding:  44px 0 45px 0;
         display: flex;
@@ -542,23 +441,13 @@ text-align: center;
 }
 
 .latest-projects-title {
-    font-family: Raleway;
-font-weight: 600;
-font-size: 30px;
-line-height: 35px;
-color: #555555;
-    margin-bottom: 9px;
+  
 }
 
 .latest-projects-text {
     width: 800px;
     margin: auto;
     margin-bottom: 27px;
- font-family: Montserrat;
-font-weight: 300;
-font-size: 16px;
-line-height: 20px;
-color: #8C8C8C;   
 }
 
 .latest-projects-filter-list {
@@ -587,37 +476,12 @@ color: #8C8C8C;
 .latest-projects-filter-list-item {
 }
 
-/*li.latest-projects-filter-list-item a:first-child {
-    width: 70px;
-    height: 32px;
-}*/
-/*.latest-projects-filter-link {
-    width: 120px;
-    height: 32px;
-    border: 1px solid #EBEBEB;
-    border-radius: 3px;
-}*/
-
-/*.latest-projects-filter-link:first-child {
-    width: 70px;
-    height: 32px;
-}*/
-
-
-
-/*.latest-projects-filter-list-item:first-child {
+.latest-projects-filter-list-item:first-child a {
   width: 70px;
     height: 32px;
     border: 1px solid #EBEBEB;
     border-radius: 3px;  
 }
-
-.latest-projects-filter-list-item:not(:first-child) {
-    width: 120px;
-    height: 32px;
-    border: 1px solid #EBEBEB;
-    border-radius: 3px;
-}*/
 
 .latest-projects-filter-link:hover {
     background-color: #998575;
@@ -773,20 +637,10 @@ color: #C7B299;
 }
 
 .mobile-figcaption-title {
-font-family: Raleway;
-font-weight: 600;
-font-size: 30px;
-line-height: 35px;
-color: #555555;
-    margin-bottom: 20px;
+
 }
 
 .mobile-figcaption-text {
-    font-family: Montserrat;
-font-weight: 300;
-font-size: 16px;
-line-height: 20px;
-color: #8C8C8C;
     margin-bottom: 50px;
 }
 
@@ -795,12 +649,6 @@ color: #8C8C8C;
 }
 
 .mobile-figcaption-link {
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 20px;
-color: #8C8C8C;
     text-decoration: none;
 }
 
@@ -877,20 +725,10 @@ color: #C7B299;
 }
 
 .recent-posts-title {
-    font-family: Raleway;
-font-weight: 600;
-font-size: 30px;
-line-height: 35px;
-color: #555555;
-    margin-bottom: 20px;
+    
 }
 
 .recent-posts-text {
-    font-family: Montserrat;
-font-weight: 300;
-font-size: 16px;
-line-height: 28px;
-color: #8C8C8C;
         width: 770px;
     text-align: center;
     margin: auto;
@@ -1074,11 +912,6 @@ color: #FFFFFF;
     }
 
 .about-waxom-text {
-    font-family: Montserrat;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #555555;
     margin-bottom: 18px;
 }
 
@@ -1102,7 +935,7 @@ color: #D1D1D1;
     position: relative;  
 }
 
-.footer-posts-title {
+.h4-footer-title {
 font-family: Raleway;
 font-style: normal;
 font-weight: 600;
@@ -1123,7 +956,7 @@ color: #363636;
     margin-bottom: 6px;
 }
 
-.article-text {
+.footer-text {
 font-family: Montserrat;
 font-weight: 300;
 font-size: 14px;
@@ -1142,6 +975,10 @@ color: #555555;
   width: 270px;
   height: 1px;
   background-color: #242424;
+}
+
+.recent-posts-article:last-child:after {
+   display: none; 
 }
 
 .recent-posts-article:hover .article-date {
@@ -1164,21 +1001,11 @@ color: #555555;
   background-color: #242424; 
 }
 
-.twitter-title {
-    font-family: Raleway;
-font-weight: 600;
-font-size: 24px;
-line-height: 28px;
-color: #FFFFFF;
-    margin-bottom: 23px;
+.twitter-article:last-child:after{
+    display: none;
 }
 
 .twitter-text {
-    font-family: Montserrat;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #555555;
     margin-bottom: 6px;
 }
 
@@ -1203,16 +1030,6 @@ color: #363636;
    margin-left: -8px;
 }
 
-.dribbble-title {
-font-family: Raleway;
-font-weight: 600;
-font-size: 24px;
-line-height: 28px;
-color: #FFFFFF;
-    margin-bottom: 23px;
-
-    }
-
 .widget-img {
     width: calc(50% - 8px);
     margin-left: 8px;
@@ -1228,12 +1045,7 @@ color: #FFFFFF;
 }
 
 .footer-menu-item {
-    font-family: Montserrat;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
-color: #555555;
-}
+  }
 
 .footer-menu {
     display: flex;
