@@ -1,11 +1,11 @@
 .container {
-   width: 1280px; 
+   min-width: 1200px; 
   margin: 0 auto;    
 }
 
 
 header{
-    height: 1024px;
+    height: 100vh;
     background-image: url('img/slider-img.png');
     background-size: cover;
     position: relative;
@@ -36,7 +36,7 @@ nav{
     /*overflow: auto;*/
     padding-top: 39px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
        margin-bottom: 315px;
     align-items: center;
 }
@@ -50,7 +50,7 @@ nav{
   width: 180px;
   text-decoration: none;
   color: #fff;
-    margin-right: auto;
+    /*margin-right: auto;*/
  
 }
 
@@ -117,25 +117,22 @@ nav{
 
 .slider-wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 39px;
+    position: relative;
 }
 
 .slider{
-    /*padding-left: 160px;
-    padding-right: 160px;*/
-    /*width: 1564px;*/
     font-family: Raleway, arial, sans-serif;
     color: #FFFFFF;
     text-align: center;
-    margin-left: -100px;
-    margin-right: -100px;
 }
 
 .slider-content{
     width: 569px;
     text-align: center;
+    justify-content: center;
 }
 
 .slider-content-subtitle{
@@ -165,11 +162,17 @@ line-height: 20px;
 }
 
 .slider-button-left {
-    margin-right: auto;
+   /* margin-right: auto;*/
+    position: absolute;
+    top: 32px;
+    left: 160px;
 }
 
 .slider-button-right {
-    margin-left: auto;
+   /* margin-left: auto;*/
+    position: absolute;
+    top: 32px;
+    right: 160px;
 }
 
 .slider-button {
@@ -229,12 +232,13 @@ line-height: 20px;
     padding: 85px 0 88px 0; 
     display: flex;
     align-items:flex-end;
-    justify-content:center;
+    justify-content:space-between;
 }
 
 .services-link:after {
   content: "";
-    display: flex;
+    display: block;
+    //display: flex;
     width: 70px;
     height: 3px;
     background-color: #F1EEE9;
@@ -244,11 +248,16 @@ line-height: 20px;
     text-decoration: none;
      width: 270px;    
     display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   justify-content: center;
   padding: 10px 10px 0 10px;
   box-sizing: border-box;
   position:relative;
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+   /* margin-right: 30px;*/
 }
 
 
@@ -270,6 +279,8 @@ color: #555555;
 }
 
 .services-text {
+    width: 270px;
+    margin: auto;
     font-family: Montserrat, arial,sans-serif;
 font-weight: 300;
 font-size: 14px;
@@ -634,6 +645,7 @@ color: #C7B299;
 
 .mobile-devices-wrap {
   display: flex;  
+    justify-content: center;
 }
 
 .mobile-figcaption-title {
@@ -642,6 +654,7 @@ color: #C7B299;
 
 .mobile-figcaption-text {
     margin-bottom: 50px;
+    width: 670px;
 }
 
 .mobile-figcaption-item {
@@ -736,13 +749,20 @@ color: #C7B299;
 }
 
 .recent-posts-wrap {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 54px;
+    /*margin-bottom: 54px;*/
+    margin: auto;
+}
+.recent-posts-figure {
+   /*display: flex;*/
+    width: 370px;
+    text-align: center; 
 }
 
 .recent-posts-figcaption {
-width: 370px;
+/*width: 370px;*/
     text-align: left;
     border: 1px solid #B3B3B3;
     padding: 31px 0 23px 23px;
@@ -772,19 +792,29 @@ font-size: 14px;
 line-height: 17px;
 color: #C7B299;
     display: inline-block;
+    position: relative;
     }
 
 
 .figcaption-readmore:after {
     content: '';
-    width: 5px;
+    /*width: 5px;
     height: 8px;
     display: inline-block;
     background-image: url(img/arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 9px;
-    position: relative;
+    position: relative;*/
+    
+    position: absolute;
+    width: 0;
+	height: 0;
+    top: 4px;
+    margin-left: 9px;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #C7B299;
+	border-bottom: 5px solid transparent;
 }
 
 .img-date-day {
@@ -829,6 +859,7 @@ vertical-align:bottom;
 
 .recent-posts-link {
     text-decoration: none;
+    display: block;
 }
 
 .recent-posts-link:hover .recent-posts-img {
@@ -857,6 +888,7 @@ color: #FFFFFF;
 
 .recent-posts-right, .recent-posts-left {
     fill: #D1D1D1;
+    margin-top: 54px;
 }
 
 .recent-posts-left {
@@ -921,18 +953,27 @@ font-size: 14px;
 line-height: 17px;
 color: #D1D1D1;
     text-decoration: none;
+    position: relative;
     }
 
 .about-readmore:after {
   content: '';
-    width: 5px;
+  /*  width: 5px;
     height: 8px;
     display: inline-block;
     background-image: url(img/arrow1.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 9px;
-    position: relative;  
+    position: relative; */
+    position: absolute;
+    width: 0;
+	height: 0;
+    top: 4px;
+    margin-left: 9px;
+	border-top: 5px solid transparent;
+	border-left: 10px solid white;
+	border-bottom: 5px solid transparent;
 }
 
 .h4-footer-title {
@@ -1073,3 +1114,137 @@ color: #555555;
 .footer-menu li:last-child {
     border-right: none;
 }
+
+label,
+#menu-list {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        min-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        min-width: 970px;
+    }
+    
+       header {
+        height: 20%;
+       min-width: 970px;
+           background-size: cover;
+    }
+    
+    nav {
+       margin-bottom: 0;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        justify-content: flex-start;
+    }
+    /*.menu-list {
+        display: none;
+    }*/
+    
+    .link-logo {
+        margin-right: 10px;
+    }
+    
+    .menu-list-icon {
+      display: none;  
+    }
+    
+    .slider {
+        display: none;
+    }
+    
+    .services-wrap {
+       min-width: 970px;
+        flex-wrap: wrap; 
+    }
+    .services-link {
+        width: 50%;
+    }
+    .recent-posts-wrap {
+      flex-direction: column;  
+    }
+    .recent-posts-link {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    /*==============menu===============*/
+    label {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-image:  url('https://cdn3.iconfinder.com/data/icons/mobile-friendly-ui/100/menu-128.png');
+    background-size: 100%;
+    background-repeat: ;
+    background-position: 0 0;
+    background-color: #fff;
+  }
+  
+  .menu-list {
+    height: auto;
+    visibility: hidden;
+    margin: 0 auto;
+    width: 100px;
+    flex-direction: column;
+  }
+  .menu-list li {
+    text-align: center;
+    background-color: #ccc;
+    margin-top: 2px;
+  }
+  
+  input[type="checkbox"]:checked ~ .menu-list {
+    height: auto;
+    visibility: visible;
+  }
+    
+    
+}
+/*}*/ 
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        min-width: 740px;
+        flex-wrap: wrap;
+    }
+    
+ header {
+        min-width: 740px;   
+    }
+    
+    .waxom-realization {
+        display: none;
+    }
+        
+    .services-wrap {
+       min-width: 740px;
+        flex-wrap: wrap;
+        padding-bottom: 38px;
+        justify-content: center;
+    }
+    .services-link {
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+}
+
+
+
+/*@media screen and (min-width: 1201px){
+    .container {
+        max-width: 1200px;
+    }
+}*/
+
+
+
